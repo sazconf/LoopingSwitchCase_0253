@@ -9,4 +9,5 @@ int main(){
     int perulanganDo;
 
     string a;
+    string b;
 }
