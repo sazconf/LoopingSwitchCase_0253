@@ -1,3 +1,3 @@
 #include<iostream>
 
-using namsespace std;
+using namespace std;
