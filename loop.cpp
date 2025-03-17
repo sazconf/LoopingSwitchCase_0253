@@ -34,5 +34,28 @@ int main()
 
     cout << "Initial n value = " << n << endl;
 
-  
+      while (n < 7)
+    {
+        cout << "n value = " << n << endl;
+        n = rand() % 10;
+        whileLoopCount++;
+    }
+    cout << "Number of iterations = " << whileLoopCount << endl;
+    cout << "Final n value = " << n << endl;
+    cout << "Loop with do while" << endl;
+
+    srand(time(0));
+
+    n = rand() % 10;
+
+    cout << "Initial n value = " << n << endl;
+
+    do
+    {
+        cout << "n value = " << n << endl;
+        n = rand() % 10;
+        doLoopCount++;
+    } while (n < 7);
+    cout << "Number of iterations = " << doLoopCount << endl;
+    cout << "Final n value = " << n << endl;
 }
